@@ -1,0 +1,36 @@
+
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-straight/css/uicons-bold-straight.css');
+
+
+/* styles.css */
+:root {
+    --background-color: #ffffff;
+    --text-color: #1e1738;
+    --hover-bg-color: #5944c5; /* Color más claro para el hover */
+
+  }
+  
+  [data-theme='dark'] {
+    --background-color: #100a24;
+    --text-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: 'Roboto';
+   
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
