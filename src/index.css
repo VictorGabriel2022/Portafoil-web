@@ -24,6 +24,7 @@
     display: grid;
     letter-spacing: 4px;
     line-height: 1.5;
+    
   
 }
 .logo {
@@ -38,6 +39,10 @@ h1{
     font-family: 'Onest Variable', sans-serif;
     color: #5a0af0;
     font-size: 40px;
+  
+}
+object{
+  box-shadow:  inset 0 0 100px 120px rgba(252, 252, 252, 0.123);
 }
 .link{
     display: flex;
@@ -93,7 +98,7 @@ h2{
    
     overflow: hidden;
   
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
   }
   
   .carousel-track {

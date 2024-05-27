@@ -11,16 +11,18 @@
 }
 
 .proyects-sub1 {
+    display: grid;
     border-radius: 15px;
-    background-color: yellow;
+    background-color: #5b21b6;
     grid-area: 1 / 1 / 4 / 4;
     position: relative;
     overflow: hidden;
 }
 
 .proyects-sub2 {
+    display: grid;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: #5b21b6;
     grid-area: 1 / 4 / 4 / 7;
     position: relative;
     overflow: hidden;
@@ -30,7 +32,7 @@
 .proyects-sub3 {
     display: grid;
     border-radius: 15px;
-    background-color: rgb(0, 255, 0);
+    background-color: #5b21b6;
     grid-area: 1 / 7 / 3 / 10;
     position: relative;
     overflow: hidden;
@@ -39,23 +41,25 @@
 .proyects-sub4 {
     display: grid;
     border-radius: 15px;
-    background-color: rgb(24, 165, 59);
+    background-color: #5b21b6;
     grid-area: 4 / 1 / 7 / 7;
     position: relative;
     overflow: hidden;
 }
 
 .proyects-sub5 {
+    display: grid;
     border-radius: 15px;
-    background-color: rgb(24, 120, 165);
+    background-color: #5b21b6;
     grid-area: 3 / 7 / 5 / 10;
     position: relative;
     overflow: hidden;
 }
 
 .proyects-sub6 {
+    display: grid;
     border-radius: 15px;
-    background-color: rgb(165, 24, 24);
+    background-color: #5b21b6;
     grid-area: 5 / 7 / 8 / 10;
     position: relative;
     overflow: hidden;
@@ -125,6 +129,16 @@ h1 {
         grid-area: auto;
     }
 }
+.enlaces{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    width: auto;
+    height: 120px;
+    justify-self: center;
+    align-self: center;
+    gap: 5px;
+}
 img{
     object-fit: cover;
     width: 100%;
@@ -133,7 +147,7 @@ img{
     align-self: center;
     border-radius: 15px;
     transition: transform 0.2s linear;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 img:hover {
     transform: scale(1.2); 
@@ -157,18 +171,23 @@ img:hover {
     transform: scale(1.2);
 }
 
-.proyects-sub3:hover .circle-button {
+.proyects-sub3 :hover .circle-button {
+    opacity: 1;
+}
+.proyects-sub1 :hover .circle-button {
+    opacity: 1;
+}
+.proyects-sub2 :hover .circle-button {
+    opacity: 1;
+}
+.proyects-sub4 :hover .circle-button {
+    opacity: 1;
+}
+.proyects-sub5 :hover .circle-button {
+    opacity: 1;
+}
+.proyects-sub6 :hover .circle-button {
     opacity: 1;
 }
 
 
-.enlaces{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    position: absolute;
-    width: auto;
-    height: 120px;
-    justify-self: center;
-    align-self: center;
-    gap: 5px;
-}
