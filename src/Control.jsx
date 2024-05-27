@@ -9,6 +9,7 @@ function Control(){
     }, [theme]);
     return(
       <div className="control">
+       <span>Home</span>
         <label className="switch">
         <input
           type="checkbox"

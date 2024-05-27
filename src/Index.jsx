@@ -2,25 +2,26 @@ import "./index.css";
 function Index() {
   return (
     <div className="containerinfo">
-      <h1>My Portafoil</h1>
+     
       <div className="info">
         <object
-          className="fade-in"
+          
           type="image/svg+xml"
           data="aaa.svg"
           height={300}
         />
 
-        <div className="myinfo">
+        <div className="myinfo fade-in"> 
+        <h1 className="fade-in">My Portafoil</h1>
           Mi nombre es Victor Manuel. Soy desarrollador Junior Front-end y
           Back-end con estudios en metodologias agiles y tradicionales con una
           amplia gama de manejo de lenguajes
           <div className="link">
             <a className="sublink" href="https://github.com/VictorGabriel2022">
-              My CV
+              <span>My CV</span>
             </a>
             <a className="sublink" href="https://github.com/VictorGabriel2022">
-              My Github
+                <span>My Github </span>
             </a>
           </div>
         </div>

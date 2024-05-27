@@ -4,9 +4,9 @@
     right: 0;
     display: flex; 
     align-items: center;
-    border: solid 1px #4424af;
-    background: #100a24;
-    color: #eceeff;
+    border: solid 1px #4c1d95;
+    background: #2e1065;
+    color: #f5f3ff;
     flex-direction: column;
     padding: 20px;
     width: 15px;
@@ -20,8 +20,6 @@
 }
 @media (max-width: 900px) {
   .container-nav {
-   
-   
     flex-direction: row;
     position: fixed;
     bottom: 0;
@@ -44,7 +42,7 @@
   color: var(--text-color);
   padding: 10px;
   border-radius: 50%;
-  background-color: #4424af;
+  background-color: #7c3aed;
   transition: transform 0.2s linear;
 
 
@@ -93,12 +91,12 @@
 
 /* Navbar.css */
 .control{
-  background-color: #100a24;
+  background-color: var(--background-color);
   position: sticky;  
   top: 0;
   display: flex;
-  justify-content: flex-end;
- 
+  justify-content: space-between;
+ z-index: 2;
 }
 .switch {
   
@@ -134,13 +132,13 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: var(--text-color);
+    background-color: var(--background-color);
     transition: 0.4s;
     border-radius: 50%;
   }
   
   input:checked + .slider {
-    background-color: #4424af;
+    background-color: #2e1065;
   }
   
   input:checked + .slider:before {

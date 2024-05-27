@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
+
+@import '@fontsource-variable/onest';
 .containerinfo{
     margin: 10px;
     margin-left: 15px;
@@ -9,6 +10,7 @@
  
 }
 .info{
+  font-family: "Onest Variable";
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
    justify-items: center;
@@ -33,9 +35,8 @@
 h1{
     margin: 0;
     margin-left: 50px;
-    font-family: "Poetsen One";
- 
-    color: #4424af;
+    font-family: 'Onest Variable', sans-serif;
+    color: #5a0af0;
     font-size: 40px;
 }
 .link{
@@ -45,19 +46,26 @@ h1{
     
 }
 .sublink {
-    color: var(--text-color); /* Color del texto del enlace */
+    
     text-decoration: none; /* Sin subrayado */
-    background-color: #100a24; /* Color de fondo */
+    background-color: #2e1065; /* Color de fondo */
     border-radius: 15px; /* Bordes redondeados */
     text-align: center; /* Alineación del texto al centro */
-    border: solid #4424af 1px; /* Borde sólido */
-    padding: 10px; /* Espaciado interno */
+    border: solid #5b21b6 1px; /* Borde sólido */
+    /* Espaciado interno */
     margin: 10px; /* Espaciado externo */
+   padding: 5px;
+  }
+  span{
+    font-family: "Onest Variable";
+    padding: 10px;
+    display: flex;
+    color: var(--text-color); /* Color del texto del enlace */
     transition: transform 0.2s linear; /* Transición suave para la transformación */
   }
   
   /* Efecto al pasar el ratón */
- .sublink:hover {
+ span:hover {
     transform: scale(1.2); /* Efecto de escala */
   }
   a{
@@ -72,7 +80,7 @@ h1{
 }
 h2{
     font-size: 20px;
-    font-family: "Poetsen One";
+    font-family: "Onest Variable";
     margin: 1px;
     margin-left: 120px;
     color: rgb(172, 168, 240);
