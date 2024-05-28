@@ -4,17 +4,16 @@
     right: 0;
     display: flex; 
     align-items: center;
-    border: solid 1px #4c1d95;
-    background: #2e1065;
+    border: solid 1px #4d1d95;
+    background: #2e1065fa;
     color: #f5f3ff;
     flex-direction: column;
     padding: 20px;
-    width: 15px;
-    margin: 10px;
-    margin-top: 100px;
+    width: 8px;
+    margin: 4px;
+    margin-top: 120px;
     border-radius:20px;
     gap: 30px;
-    margin-bottom:20px;
     z-index: 1;
     
 }
@@ -25,11 +24,11 @@
     bottom: 0;
     right: auto;
     width: auto;
-    height: 40px; /* ajusta la altura según tu diseño */
+    height: 20px; /* ajusta la altura según tu diseño */
     margin: 10px; /* ajusta el margen según tu diseño */
-    margin-bottom: 20px; /* ajusta el margen según tu diseño */
-    border-radius: 20px;
-    gap: 30px;
+    margin-bottom: 10px; /* ajusta el margen según tu diseño */
+    border-radius: 15px;
+    gap: 35px;
     justify-self: center;
   }
 }

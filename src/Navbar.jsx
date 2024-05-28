@@ -17,7 +17,7 @@ function Navbar() {
       <Link className="item" to="/cv"><i className="fi fi-bs-home">
       <span className="tooltip">Formacion</span></i></Link>
       <div className="item"><i className="fi fi-bs-home"></i></div>
-      <div className="item"><i className="fi fi-bs-home"></i></div>
+    
       
     </div>
     </div>
