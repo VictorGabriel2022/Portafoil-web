@@ -99,17 +99,16 @@ h2{
   box-sizing: border-box;
 }
 
-* {
-  margin: 0;
-}
+
+
 
 .wrapper {
+  margin: 0;
   width: 70%;
   max-width: 1536px;
   margin-inline: auto;
+  height: 55px;
   position: relative;
-  height: 78px;
-  margin-top: 1rem;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -126,16 +125,32 @@ h2{
   }
 }
 
-.items {
-  height: 78px;
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+.itemLeft,
+.itemRight {
+  background-image: radial-gradient(circle 28px, rgba(249, 249, 252, 0.993), #0e0e1100);
+
+  height: 55px;
   border-radius: 6px;
   position: absolute;
+  animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.itemLeft {
   left: max(calc(100px * 8), 100%);
   animation-name: scrollLeft;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  background-image: radial-gradient(circle 40px, rgba(255, 255, 255, 0.788), #0e0e1100);
+}
+
+.itemRight {
+  right: max(calc(100px * 8), calc(100% + 100px));
+  animation-name: scrollRight;
 }
 
 .items1 {

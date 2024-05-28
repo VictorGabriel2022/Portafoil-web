@@ -5,13 +5,13 @@
 /* styles.css */
 :root {
     --background-color: #ffffff;
-    --text-color: #050505;
+    --text-color: #080808;
     --hover-bg-color: #2e1065; /* Color más claro para el hover */
 
   }
   
   [data-theme='dark'] {
-    --background-color: #080808;
+    --background-color: #030712;
     --text-color: #ffffff;
   }
   
