@@ -12,7 +12,7 @@ function Contact(){
                 <textarea name=" message" cols="30" rows="5" placeholder="Enter Your message" className="input"
                     required></textarea>
                 <button className="submit" type="submit" value="enviar">Submit</button>
-                <input type="hidden" name="_next" value="http://localhost:5173/"></input>
+                <input type="hidden" name="_next" value="https://portafoil-tito.netlify.app/"></input>
                 <input type="hidden" name="_captcha" value="false"></input>
             </form>
         </div>
