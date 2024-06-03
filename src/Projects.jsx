@@ -15,7 +15,7 @@ function Projects() {
         title="Vision Check"
         context="App created by javascript,css and html"
         linkcode="https://github.com/VictorGabriel2022/bazar-demoReactVite"
-        linkweb="https://victorgabriel2022.github.io/bazar-demoReactVite/"
+        linkweb="https://lively-halva-cff51d.netlify.app/"
       />
         <CardProjects
         img="/image copy 2.png"
