@@ -1,4 +1,6 @@
-
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 .container-nav{
     position: fixed;   
     right: 0;
@@ -36,7 +38,7 @@
   display: grid;
 
 }
-.fi-bs-home{
+.fi-bs-home,.fi-rr-paper-plane,.fi-rs-folder,.fi-rr-resume{
   display: flex;
   color: var(--text-color);
   padding: 10px;
@@ -53,22 +55,37 @@
   transform: scale(1.2);
   color: #1e1738
 }
+.fi-rr-paper-plane:hover{
+  background-color: #9478f0;  
+  transform: scale(1.2);
+  color: #1e1738
+}
+.fi-rs-folder:hover{
+  background-color: #9478f0;  
+  transform: scale(1.2);
+  color: #1e1738
+}
+.fi-rr-resume:hover{
+  background-color: #9478f0;  
+  transform: scale(1.2);
+  color: #1e1738
+}
 .container-nav .tooltip {
- 
+  display: flex;
+  gap: 3px;
   visibility: hidden;
-  background-color: #555;
-  color: #fff;
+  background-color: #2e1065fa;
+  color: #a894f0;
   text-align: center;
   border-radius: 5px;
-  padding: 7px;
+  padding: 4px;
   position: absolute;
-  z-index: 1;
-  left: -200% ; /* Posiciona la viñeta a la izquierda del elemento */
+  left: -70px ; /* Posiciona la viñeta a la izquierda del elemento */
   top: 50%;
   transform: translateY(-50%); /* Centra la viñeta verticalmente */
   opacity: 0;
-  transition: opacity 0.3s;
-  width: auto; /* Ajusta el ancho de la viñeta según el contenido */
+ 
+  
 }
 
 .container-nav .tooltip::after {
@@ -80,7 +97,7 @@
   transform: translateY(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent transparent #555;
+  border-color: transparent transparent transparent #2e1065fa;
 }
 
 .container-nav .item:hover .tooltip {

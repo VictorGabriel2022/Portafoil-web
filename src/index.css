@@ -50,6 +50,10 @@ object{
     justify-self: center; 
     
 }
+.sublink:hover{
+  background-color: #9478f0; 
+
+}
 .sublink {
     
     text-decoration: none; /* Sin subrayado */
@@ -71,7 +75,8 @@ object{
   
   /* Efecto al pasar el ratón */
  span:hover {
-    transform: scale(1.2); /* Efecto de escala */
+    transform: scale(1.17); /* Efecto de escala */
+    color: #070707;
   }
   a{
     text-decoration: none;
@@ -133,7 +138,7 @@ h2{
 
 .itemLeft,
 .itemRight {
-  background-image: radial-gradient(circle 28px, rgba(249, 249, 252, 0.993), #0e0e1100);
+  background-image: radial-gradient(circle 28px, rgb(255, 255, 255), #0e0e1100);
 
   height: 55px;
   border-radius: 6px;

@@ -1,4 +1,5 @@
 import "./index.css";
+import { BsGithub } from "react-icons/bs";
 function Index() {
   return (
     <div className="containerinfo">
@@ -16,15 +17,13 @@ function Index() {
         <object type="image/svg+xml" data="aaa.svg" height={300} />
         <div className="myinfo fade-in">
           <h1 className="fade-in">My Portafoil</h1>
-          Mi nombre es Victor Manuel. Soy desarrollador Junior Front-end y
-          Back-end con estudios en metodologias agiles y tradicionales con una
-          amplia gama de manejo de lenguajes
+          Desarrollador Junior de React con habilidades en JavaScript, HTML, CSS y experiencia en la creación de aplicaciones web dinámicas y receptivas. Apasionado por aprender nuevas tecnologías y mejorar continuamente mis habilidades.
           <div className="link">
             <a className="sublink" href="https://github.com/VictorGabriel2022">
               <span>My CV</span>
             </a>
             <a className="sublink" href="https://github.com/VictorGabriel2022">
-              <span>My Github </span>
+              <span>My Github <BsGithub style={{alignSelf:"center",marginLeft:1}}/></span>
             </a>
           </div>
         </div>

@@ -9,6 +9,7 @@ import Index from './Index'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
 import Projects from './Projects'
 import Cv from './Cv'
+import Contact from './Contact'
 
 function App() {
  
@@ -23,6 +24,7 @@ function App() {
             <Route path='/' element={<Index/> } />
              <Route path='/proyects' element={<Projects/>} />
              <Route path='/cv' element={<Cv/>} />
+             <Route path='/contact' element={<Contact/>} />
            </Routes>
           </BrowserRouter>
           
