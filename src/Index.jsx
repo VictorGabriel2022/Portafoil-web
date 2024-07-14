@@ -19,7 +19,7 @@ function Index() {
           <h1 className="fade-in">My Portafoil</h1>
           Desarrollador Junior de React con habilidades en JavaScript, HTML, CSS y experiencia en la creación de aplicaciones web dinámicas y receptivas. Apasionado por aprender nuevas tecnologías y mejorar continuamente mis habilidades.
           <div className="link">
-            <a className="sublink" href="https://github.com/VictorGabriel2022">
+            <a className="sublink" href="/public/curriculum.pdf">
               <span>My CV</span>
             </a>
             <a className="sublink" href="https://github.com/VictorGabriel2022">

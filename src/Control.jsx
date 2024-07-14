@@ -3,7 +3,7 @@ import { ThemeContext } from "./Context/ThemeContext";
 
 function Control(){
     const { theme, toggleTheme } = useContext(ThemeContext);
-
+  
     useEffect(() => {
       document.body.setAttribute('data-theme', theme);
     }, [theme]);

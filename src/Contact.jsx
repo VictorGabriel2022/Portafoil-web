@@ -1,9 +1,14 @@
+import { useState } from "react";
 import "./contact.css"
 function Contact(){
+    const [counter,setCounter] = useState(20);
+    
+    
     return(
         
               <div className="container">
-        
+                 
+              
         <div className="contact-form-container">
             <form action="https://formsubmit.co/mazmorra13rol@gmail.com" method="POST" className="contact-form">
                 <span className="form-header">Contact us</span>
